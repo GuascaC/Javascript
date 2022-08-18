@@ -10,12 +10,12 @@ cannum=prompt("Introduzca la cantidad");
 for(let i=0;i<cannum; i++){
     num=prompt("Introduzca un número");
     if (num == 0){
-     cancer =++1 }
+     cancer++ }
     else{
         if (num > 0){
-         canpos =++1 }
+         canpos++ }
         else{
-         canneg =++1 }
+         canneg++ }
     }
 }
 console.log("Positivos:"+canpos);
